@@ -99,6 +99,14 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Controllers\Productos\Models\Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model1.Context1.cs</LastGenOutput>
+    </Content>
+    <Content Include="Controllers\Productos\Models\Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model11.cs</LastGenOutput>
+    </Content>
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Login\Assets\jquery-1.11.2.min.js" />
@@ -137,6 +145,11 @@
     <Content Include="Login\Bootstrap\Fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Login\Bootstrap\Fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Login\Bootstrap\Fonts\glyphicons-halflings-regular.woff2" />
+    <EntityDeploy Include="Controllers\Productos\Models\Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model11.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Controllers\Productos\Models\Model1.edmx.diagram" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -164,6 +177,35 @@
     <Compile Include="Controllers\Connection.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\Productos\DBCommon.cs" />
+    <Compile Include="Controllers\Productos\Models\Model1.Context.cs" />
+    <Compile Include="Controllers\Productos\Models\Model1.Context1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\Productos\Models\Model1.cs" />
+    <Compile Include="Controllers\Productos\Models\Model1.Designer.cs" />
+    <Compile Include="Controllers\Productos\Models\Model11.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\Productos\Models\Model11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\Productos\Models\Productos.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\Productos\Models\sysdiagrams.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\Productos\ProductosBL.cs" />
+    <Compile Include="Controllers\Productos\ProductosController.cs" />
+    <Compile Include="Controllers\Productos\ProductosDAL.cs" />
+    <Compile Include="Controllers\Productos\ProductosEN.cs" />
     <Compile Include="Controllers\SignUpController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
