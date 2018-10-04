@@ -20,7 +20,11 @@
                 @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
+               
                 <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Registrarse", "Create", "SignUp")</li>
+                    <li>@Html.ActionLink("Iniciar sesión", "Login", "Login")</li>
+                    Iniciar sesión
                 </ul>
             </div>
         </div>

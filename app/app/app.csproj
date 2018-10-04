@@ -154,7 +154,7 @@
     <Content Include="Views\SignUp\Details.cshtml" />
     <Content Include="Views\SignUp\Edit.cshtml" />
     <Content Include="Views\SignUp\Index.cshtml" />
-    <Content Include="Views\Login\Login.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Account\ForgotPassword.cshtml" />
   </ItemGroup>

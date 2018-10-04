@@ -29,7 +29,7 @@ namespace app.Controllers
                 {
                     Session["usuarioId"] = userDetailsN.usuarioId;
                     Session["nombreus"] = userDetailsN.nombreus;
-                    return RedirectToAction("Index", "Principal");
+                    return RedirectToAction("Index", "Home");
                 }
 
 
@@ -42,8 +42,7 @@ namespace app.Controllers
         {
             int userId = (int)Session["usuarioId"];
             Session.Abandon();
-            return RedirectToAction("Index", "IniciarSesion");
+            return RedirectToAction("Index", "Login");
         }
     }
-}
 }

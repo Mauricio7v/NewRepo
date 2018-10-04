@@ -4,7 +4,7 @@
     Layout = null;
     if (Session["usuarioId"] == null)
     {
-        Response.Redirect("~/IniciarSesion/Index");
+        Response.Redirect("~/Login/Login");
     }
 }
 
@@ -19,7 +19,7 @@
     <div>
         <h1>Bienvenido</h1>
         <h3>Usuario : @Session["nombreus"].ToString()</h3>
-        <a href="@Url.Action("LogOut","IniciarSesion")">Cerrar sesión</a>
+        <a href="@Url.Action("LogOut","Login")">Cerrar sesión</a>
     </div>
 </body>
 </html>
