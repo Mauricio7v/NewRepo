@@ -132,9 +132,11 @@
     <Content Include="Views\SignUp\Edit.cshtml" />
     <Content Include="Views\SignUp\Index.cshtml" />
     <Content Include="Views\Login\Login.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\SignUpController.cs" />
     <Compile Include="Global.asax.cs">
