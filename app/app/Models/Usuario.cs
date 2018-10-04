@@ -19,5 +19,6 @@ namespace app.Models
         public string CorreoElectronico { get; set; }
         public string nombreus { get; set; }
         public string pass { get; set; }
+        public string LoginErrorMessage { get; internal set; }
     }
 }
