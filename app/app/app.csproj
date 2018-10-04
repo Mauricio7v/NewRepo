@@ -150,6 +150,13 @@
       <LastGenOutput>Model11.Designer.cs</LastGenOutput>
     </EntityDeploy>
     <Content Include="Controllers\Productos\Models\Model1.edmx.diagram" />
+    <Content Include="Productos\Create.cshtml" />
+    <Content Include="Productos\Delete.cshtml" />
+    <Content Include="Productos\Details.cshtml" />
+    <Content Include="Productos\Edit.cshtml" />
+    <Content Include="Productos\Index.cshtml" />
+    <Content Include="Productos\MainView.cshtml" />
+    <Content Include="Productos\SearchFilter.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
