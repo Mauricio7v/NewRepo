@@ -109,6 +109,9 @@
     <Content Include="Login\Bootstrap\Css\bootstrap.min.css" />
     <Content Include="Login\Bootstrap\Css\font-awesome.min.css" />
     <Content Include="Login\Bootstrap\Fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Login\Bootstrap\Js\bootstrap.js" />
+    <Content Include="Login\Bootstrap\Js\bootstrap.min.js" />
+    <Content Include="Login\Bootstrap\Js\npm.js" />
     <Content Include="Models\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Model1.Context.cs</LastGenOutput>
@@ -212,7 +215,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Login\Assets\" />
     <Folder Include="Login\Bootstrap\Img\" />
-    <Folder Include="Login\Bootstrap\Js\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
