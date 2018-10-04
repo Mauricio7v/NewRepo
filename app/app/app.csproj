@@ -108,6 +108,7 @@
     <Content Include="Login\Bootstrap\Css\bootstrap.css" />
     <Content Include="Login\Bootstrap\Css\bootstrap.min.css" />
     <Content Include="Login\Bootstrap\Css\font-awesome.min.css" />
+    <Content Include="Login\Bootstrap\Fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Models\Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Model1.Context.cs</LastGenOutput>
@@ -125,6 +126,10 @@
     <Content Include="Login\Bootstrap\Css\bootstrap-theme.min.css.map" />
     <Content Include="Login\Bootstrap\Css\bootstrap.css.map" />
     <Content Include="Login\Bootstrap\Css\bootstrap.min.css.map" />
+    <Content Include="Login\Bootstrap\Fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Login\Bootstrap\Fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Login\Bootstrap\Fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Login\Bootstrap\Fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -206,7 +211,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Login\Assets\" />
-    <Folder Include="Login\Bootstrap\Fonts\" />
     <Folder Include="Login\Bootstrap\Img\" />
     <Folder Include="Login\Bootstrap\Js\" />
   </ItemGroup>
