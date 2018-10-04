@@ -2,6 +2,10 @@
 
 @{
     Layout = null;
+    if (Session["usuarioId"] == null)
+    {
+        Response.Redirect("~/IniciarSesion/Index");
+    }
 }
 
 <!DOCTYPE html>
@@ -12,7 +16,10 @@
     <title>Index</title>
 </head>
 <body>
-    <div> 
+    <div>
+        <h1>Bienvenido</h1>
+        <h3>Usuario : @Session["nombreus"].ToString()</h3>
+        <a href="@Url.Action("LogOut","IniciarSesion")">Cerrar sesión</a>
     </div>
 </body>
 </html>
