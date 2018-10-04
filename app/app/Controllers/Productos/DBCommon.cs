@@ -5,7 +5,7 @@ using System.Web;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace Prueba2.Controllers
+namespace app.Controllers
 {
     public class DBCommon
     {

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Prueba2.Models
+namespace app.Models
 {
     using System;
     using System.Data.Entity;

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace app.Controllers.Productos.Models
+namespace app.Models
 {
     using System;
     using System.Collections.Generic;

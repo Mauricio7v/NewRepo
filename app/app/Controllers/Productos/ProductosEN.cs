@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Prueba2.Controllers
+namespace app.Controllers
 {
     public class ProductosEN
     {

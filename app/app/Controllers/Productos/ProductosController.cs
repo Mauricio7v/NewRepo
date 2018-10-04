@@ -1,14 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using Prueba2.Controllers;
+using app.Controllers;
 
-namespace Prueba2.Models
+
+namespace app.Models
 {
     public class ProductosController : Controller
     {
@@ -130,6 +130,7 @@ namespace Prueba2.Models
 
             return View(resultado);
         }
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)
