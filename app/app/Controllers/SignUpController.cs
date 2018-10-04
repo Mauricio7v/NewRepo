@@ -10,17 +10,17 @@ using app.Models;
 
 namespace app.Controllers
 {
-    public class LoginController : Controller
+    public class SignUpController : Controller
     {
         private LoginEntities db = new LoginEntities();
 
-        // GET: Login
+        // GET: SignUp
         public ActionResult Index()
         {
             return View(db.Usuario.ToList());
         }
 
-        // GET: Login/Details/5
+        // GET: SignUp/Details/5
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -35,13 +35,13 @@ namespace app.Controllers
             return View(usuario);
         }
 
-        // GET: Login/Create
+        // GET: SignUp/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Login/Create
+        // POST: SignUp/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -58,7 +58,7 @@ namespace app.Controllers
             return View(usuario);
         }
 
-        // GET: Login/Edit/5
+        // GET: SignUp/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -73,7 +73,7 @@ namespace app.Controllers
             return View(usuario);
         }
 
-        // POST: Login/Edit/5
+        // POST: SignUp/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
@@ -89,7 +89,7 @@ namespace app.Controllers
             return View(usuario);
         }
 
-        // GET: Login/Delete/5
+        // GET: SignUp/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -104,7 +104,7 @@ namespace app.Controllers
             return View(usuario);
         }
 
-        // POST: Login/Delete/5
+        // POST: SignUp/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
