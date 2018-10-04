@@ -9,7 +9,7 @@ namespace app.Controllers
     public class AccountController : Controller
     {
         // GET: Account
-        public ActionResult Index()
+        public ActionResult ForgotPassword()
         {
             return View();
         }
