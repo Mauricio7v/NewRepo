@@ -52,7 +52,7 @@ namespace app.Controllers
             {
                 db.Usuario.Add(usuario);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("/Index","Login");
             }
 
             return View(usuario);

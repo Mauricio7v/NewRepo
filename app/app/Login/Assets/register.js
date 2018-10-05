@@ -20,41 +20,50 @@ $('document').ready(function()
 					
 		  rules:
 		  {
-				name: {
+				Nombre: {
 					required: true,
 					validname: true,
-					minlength: 4
-				},
-				email: {
+					minlength: 10
+              },
+              nombreus: {
+                  required: true,
+                  validname: false,
+                  minlength: 4
+              },
+              CorreoElectronico: {
 					required: true,
 					validemail: true
 				},
-				password: {
+              pass: {
 					required: true,
-					minlength: 8,
+					minlength: 6,
 					maxlength: 15
 				},
-				cpassword: {
+              cpass: {
 					required: true,
-					equalTo: '#password'
+					equalTo: '#pass'
 				},
 		   },
 		   messages:
 		   {
-				name: {
-					required: "Please Enter User Name",
+               Nombre: {
+					required: "Please Enter your Name",
 					validname: "Name must contain only alphabets and space",
 					minlength: "Your Name is Too Short"
-					  },
-			    email: {
+               },
+               Nombre: {
+                   required: "Please Enter User Name",
+                   minlength: "Your Name is Too Short"
+               },
+               CorreoElectronico: {
 					  required: "Please Enter Email Address",
 					  validemail: "Enter Valid Email Address"
 					   },
-				password:{
+				pass:{
 					required: "Please Enter Password",
-					minlength: "Password at least have 8 characters"
+					minlength: "Password at least have 6 characters"
 					},
-				cpassword:{
+				cpass:{
 					required: "Please Retype your Password",
 					equalTo: "Password Did not Match !"
 					}
