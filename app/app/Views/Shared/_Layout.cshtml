@@ -22,8 +22,9 @@
             <div class="navbar-collapse collapse">
                
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Registrarse","Create","SignUp")</li>
-                    <li>@Html.ActionLink("Iniciar sesión","/Index","Login")</li>
+                    <li>@Html.ActionLink("Registrarse", "Create", "SignUp")</li>
+                    <li>@Html.ActionLink("Iniciar sesión", "/Index", "Login")</li>
+                    <li>@Html.ActionLink("Productos", "/MainView", "Productos")</li>
                     Iniciar sesión
                 </ul>
             </div>
@@ -34,7 +35,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year </p>
+            @*<p>&copy; @DateTime.Now.Year </p>*@
         </footer>
     </div>
 

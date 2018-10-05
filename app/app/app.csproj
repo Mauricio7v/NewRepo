@@ -182,7 +182,6 @@
     <Content Include="Views\Productos\Index.cshtml" />
     <Content Include="Views\Productos\MainView.cshtml" />
     <Content Include="Views\Productos\SearchFilter.cshtml" />
-    <Content Include="Views\Home\prueba.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
